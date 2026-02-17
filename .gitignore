@@ -1,16 +1,48 @@
-*.iml
-.gradle
-/local.properties
-/.idea
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Build Artifacts and Output
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+app/build/
+*/build/
+output-metadata.json
+output.json
+
+# Gradle Files and Directories
+.gradle/
 local.properties
+
+# IDE-Specific Files (Android Studio / IntelliJ IDEA)
+.idea/
+*.iml
+*.iws
+*.ipr
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+*.swp
+*.swo
+
+# Android Specific
+proguard/
+proguard-project.txt
+project.properties
+gradle-app.setting
+
+# Secrets / Signing
+*.jks
+*.keystore
+
+# Log Files
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db

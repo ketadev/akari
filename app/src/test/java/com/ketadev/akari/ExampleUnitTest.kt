@@ -1,4 +1,4 @@
-package ni.com.kennydev.kitsu
+package com.ketadev.akari
 
 import org.junit.Test
 
